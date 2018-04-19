@@ -30,4 +30,10 @@ target_include_directories(target
 )
 ```
 
-The `PRIVATE` identifier specifies the scope of the include. **This is important for libraries** and is exlpained in the next example. More details on the function is available [here](https://cmake.org/cmake/help/v3.0/command/target_include_directories.html)
+The `PRIVATE` identifier specifies the scope of the include. More details on the function is available [here](https://cmake.org/cmake/help/v3.0/command/target_include_directories.html)
+
+The meaning of scopes are:
+
+* `PRIVATE` - the directory is added to this target's include directories
+* `INTERFACE` - the directory is added to the include directores for any targets that link this library.
+* `PUBLIC` - as above, it is included in his library and also any targets that link this library.
