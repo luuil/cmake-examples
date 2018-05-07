@@ -9,5 +9,7 @@
     - **F-install**: show how to use `install`
     - **G-CMAKE_BUILD_TYPE**: show how to use `CMAKE_BUILD_TYPE`
     - **H-find_package**: show how to use `find_package()`
+- **02-advanced**
+    - **A-download-project**: download project at configuration time using `ExternalProject_Add()`
 - **docker**
     - **Dockerfile-ubuntu16.04-cmake3.10.3**: for ubuntu 16.04 and cmake 3.10.3 image
